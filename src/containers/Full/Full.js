@@ -28,15 +28,18 @@ import * as firebase from 'firebase';
 // Initialize Firebase
 // TODO: Replace with your project's customized code snippet
 
+
+// Initialize Firebase
 var config = {
-    apiKey: "AIzaSyBPweAHcP4em0PYh8XWzEqjNhTk3OBNS5I",
-    authDomain: "dashboard-dev-8b843.firebaseapp.com",
-    databaseURL: "https://dashboard-dev-8b843.firebaseio.com",
-    projectId: "dashboard-dev-8b843",
-    storageBucket: "dashboard-dev-8b843.appspot.com",
-    messagingSenderId: "264557605189"
+    apiKey: "AIzaSyDRGeY4LTzJSh9e-MG7wLVRx95-nzpg8HA",
+    authDomain: "dashboard-8bd9b.firebaseapp.com",
+    databaseURL: "https://dashboard-8bd9b.firebaseio.com",
+    projectId: "dashboard-8bd9b",
+    storageBucket: "dashboard-8bd9b.appspot.com",
+    messagingSenderId: "873314236235"
   };
-firebase.initializeApp(config);
+  firebase.initializeApp(config);
+
 
 
 class Full extends Component {
